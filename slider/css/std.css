@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(27,34,54,0.85);
+
+}
+
+h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color:#fff;
+    margin-top: 50px;
+
+}
+.maindiv{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(./images/p-4.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 10px white;
+    animation:slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url(./images/p-4.jpg);}
+    35%{background-image: url(./images/p-5.jpg);}
+    75%{background-image: url(./images/p-6.jpg);}
+}
